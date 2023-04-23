@@ -22,7 +22,7 @@ namespace TestProjectAqualityFramework.Tests
         [Test]
         public void TestCase1()
         {
-            
+            cookiesForm.ClickAcceptCookiesButton();
             mainForm.AssertIsPresent();
             mainForm.HitNextPageButton();
 
